@@ -1,0 +1,141 @@
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.btn {
+
+    padding: 0 2vh;
+    color: white;
+    background-color: var(--main-bg-color);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2px solid rgb(235, 239, 243);
+    cursor: pointer;
+
+
+
+}
+
+
+.poster {
+    display: flex;
+
+    align-items: center;
+    overflow: hidden;
+
+    
+   
+
+}
+
+
+    
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    
+    background-color: rgb(211, 150, 210);
+    border: 2px soild rgb(217, 83, 106);
+    height: 50px;
+}
+h2{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(8, 90, 162);
+    
+}
+.bton {
+    
+    
+    padding: 0 2vh;
+    color: white;
+    background-color:rgb(168, 9, 192) ;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2px solid rgba(253, 254, 255, 0.942);
+    cursor: pointer;   
+    
+}
+.title{
+    margin: 6px;
+}
+.butn{
+    margin: 10px;
+}
+.items{
+    height: 300px;
+    
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    
+    padding: 60px;
+    padding-right: 60px;
+      overflow: scroll;
+    
+    
+
+}
+.s1{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(250, 253, 253);
+    border:2px solid rgb(160, 207, 232) ;
+    
+}
+
+.s2{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(248, 252, 252);
+    border:2px solid rgb(160, 207, 232) ;
+}
+
+.s3{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(245, 248, 248);
+    border:2px solid rgb(160, 207, 232) ;
+}
+.s4{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(253, 255, 255);
+    border:2px solid rgb(160, 207, 232) ;
+}
+.img{
+    margin-top: 20px;
+}
+
+
+.s1:hover {
+    font-weight: bold;
+    
+    
+}
+.s2:hover {
+    font-weight: bold;
+    
+    
+}
+.s3:hover {
+    font-weight: bold;
+    
+    
+}
+.s4:hover {
+    font-weight: bold;
+    
+    
+}
+

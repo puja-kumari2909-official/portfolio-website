@@ -1,0 +1,84 @@
+:root {
+  --main-bg-color: rgba(196, 11, 181, 0.836);
+}
+body{
+    height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+nav{
+    display: flex;
+    ;
+    padding: 3vh;
+    height: 4vh;
+    width:100%;
+}
+nav p{
+    color: white;
+    font-style: italic;
+    font-size: 5vh;
+    font-weight: bold;
+    
+
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 4vh;
+    
+}
+nav ul li{
+    list-style:none ;
+    padding: 0vh 2vh;
+}
+nav ul li a{
+    color: white;
+     text-decoration: none;
+}
+nav ul li a:hover{
+    
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+.search input{
+    height: 4vh;
+    width: 40vw;
+    border-radius: 1vh;
+    margin:0 6px 0 10px ;
+    padding: 0 8px;
+
+    
+}
+
+/* .container{
+    min-height: calc(100vh - 4vh - 8vh);
+} */
+
+
+footer{
+    background-color:  var(--main-bg-color);
+    color: white;
+   
+    height:8vh ;
+}
